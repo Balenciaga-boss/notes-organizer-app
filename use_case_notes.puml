@@ -7,7 +7,7 @@ rectangle "Приложение для заметок" {
     usecase "Создать заметку" as UC_Create
     usecase "Редактировать заметку" as UC_Edit
     usecase "Удалить заметку" as UC_Delete
-    usecase "Просмотреть список\nзаметок" as UC_List
+    usecase "Просмотреть список заметок" as UC_List
     usecase "Просмотреть заметку" as UC_View
     usecase "Поделиться заметкой" as UC_Share
 }
