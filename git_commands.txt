@@ -1,11 +1,8 @@
-Примеры базовых команд Git, которые можно использовать
-для работы с этим проектом (аналогично действиям,
-выполненным через веб-интерфейс GitHub):
+git init
+git status
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin 
+git push -u origin main
 
-git init                      # инициализация локального репозитория
-git status                    # проверка статуса файлов
-git add .                     # добавление всех файлов в индекс
-git commit -m "Initial commit"  # создание первого коммита
-git branch -M main            # установка основной ветки main
-git remote add origin https://github.com/<ник>/<репозиторий>.git  # привязка к GitHub
-git push -u origin main       # отправка коммита на GitHub
