@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+
+actor "Пользователь" as User
+
+rectangle "Приложение для заметок" {
+    usecase "Создать заметку" as UC_Create
+    usecase "Редактировать заметку" as UC_Edit
+    usecase "Удалить заметку" as UC_Delete
+    usecase "Просмотреть список\nзаметок" as UC_List
+    usecase "Просмотреть заметку" as UC_View
+    usecase "Поделиться заметкой" as UC_Share
+}
+
+User --> UC_Create
+User --> UC_Edit
+User --> UC_Delete
+User --> UC_List
+User --> UC_View
+User --> UC_Share
+
+@enduml
